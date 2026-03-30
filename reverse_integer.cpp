@@ -11,4 +11,25 @@
 // ⏱ Time Complexity: O(log n)
 // 🧠 Space Complexity: O(1)
 
+class Solution {
+public:
+    int reverse(int x) {
+        int digit;
+        int reverse_num = 0;
+
+        while (x != 0) {
+            digit = x % 10;
+
+            // Handle overflow
+            if (reverse_num > INT_MAX / 10 || reverse_num < INT_MIN / 10)
+                return 0;
+
+            reverse_num = reverse_num * 10 + digit;
+            x = x / 10;
+        }
+
+        return reverse_num;
+    }
+};
+
 
