@@ -7,3 +7,8 @@
 // reverse = reverse * 10 + digit
 // Remove last digit using division (/ 10)
 // Handle overflow before updating reverse number
+
+// ⏱ Time Complexity: O(log n)
+// 🧠 Space Complexity: O(1)
+
+
