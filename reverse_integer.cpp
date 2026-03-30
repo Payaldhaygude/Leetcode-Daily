@@ -7,26 +7,3 @@
 // reverse = reverse * 10 + digit
 // Remove last digit using division (/ 10)
 // Handle overflow before updating reverse number
-
-// ⏱ Time Complexity: O(log n)
-// 🧠 Space Complexity: O(1)
-
-class Solution {
-public:
-      int reverse(int x) {
-        int digit;
-        int reverse_num = 0;
-
-        while(x != 0) {
-          digit = x % 10;
-
-            if (reverse_num > INT_MAX /10 || reverse_num < INT_MIN /10 ) {
-            return 0;
-          }
-
-          
-          reverse_num = reverse_num * 10 + digit ;
-        }
-        return reverse_num;
-    }
-};
