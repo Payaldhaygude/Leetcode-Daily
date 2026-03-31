@@ -8,3 +8,19 @@
 
 // ⏱ Time Complexity: O(n log n)
 // 🧠 Space Complexity: O(1)
+
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        
+        sort(nums.begin(), nums.end());
+
+        for (int j = 0; j < nums.size() - 1; j++) {
+            if (nums[j] == nums[j + 1]) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+};
