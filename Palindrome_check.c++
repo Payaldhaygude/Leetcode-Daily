@@ -1,6 +1,5 @@
 // 🔗 Problem: https://leetcode.com/problems/palindrome-number/
 // 🟢 Difficulty: Easy
-
 // 💡 Approach:
 // Reverse the number and compare with original
 
