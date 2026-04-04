@@ -12,7 +12,8 @@ public:
     bool isPalindrome(int x) {
         if (x < 0) return false;
 
-        
+        int original = x;
+        int reversed = 0;
 
         int digit = 0;
         while(x != 0) {
