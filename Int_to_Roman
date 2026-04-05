@@ -18,7 +18,6 @@ public:
         vector<string> symbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
 
         string result = "";
-
         for(int i = 0; i < values.size(); i++) {
             while(num >= values[i]) {
                 result += symbols[i];
