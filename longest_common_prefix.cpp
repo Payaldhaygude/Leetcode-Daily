@@ -8,3 +8,6 @@
 //    - Remove the last character from prefix.
 // 4. If prefix becomes empty, return "".
 // 5. Return the final prefix.
+
+// ⏱ Time Complexity: O(N * M)
+// 🧠 Space Complexity: O(1)
