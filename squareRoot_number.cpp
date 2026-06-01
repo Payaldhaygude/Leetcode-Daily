@@ -1,3 +1,12 @@
+// using math function for c++ -> sqrt
+
+
+
+
+
+
+
+
 class Solution {
 public:
     int mySqrt(int x) {
