@@ -2,9 +2,7 @@
 // 🟢 Difficulty: Medium
 
 // 💡 Approach:
-// Insert spaces at the given indices.
-// Since each insertion increases the string length by 1,
-// use an offset to adjust subsequent insertion positions.
+// Insert spaces at the given indices while adjusting positions using an offset.
 
 // ⏱ Time Complexity: O(n * k)
 // 🧠 Space Complexity: O(1)
