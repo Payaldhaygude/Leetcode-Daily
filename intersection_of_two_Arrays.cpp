@@ -2,12 +2,9 @@
 // 🟢 Difficulty: Easy
 
 // 💡 Approach:
-// 1. Sort both arrays.
-// 2. Use two pointers starting from the end of each array.
-// 3. If elements are equal, add them to the answer only if
-//    they are not already present.
-// 4. Move the pointer of the larger element otherwise.
-//
+// Sort both arrays and use two pointers to find common elements.
+// Store only unique intersections by avoiding duplicates.
+
 // ⏱ Time Complexity: O(n log n + m log m)
 // 🧠 Space Complexity: O(k)   // k = size of intersection
 
