@@ -2,9 +2,7 @@
 // 🟢 Difficulty: Easy
 //
 // 💡 Approach:
-// Generate powers of 3 using pow(3, i).
-// If any power equals n, return true.
-// Stop when the power becomes greater than n.
+// Check powers of 3 using pow(3, i) until the value exceeds n.
 //
 // ⏱ Time Complexity: O(log₃ n)
 // 🧠 Space Complexity: O(1)
@@ -15,11 +13,8 @@ public:
         if (n <= 0) return false;
 
         int i = 0;
-
         while (pow(3, i) <= n) {
-            if (pow(3, i) == n) {
-                return true;
-            }
+            if (pow(3, i) == n) return true;
             i++;
         }
 
