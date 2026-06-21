@@ -2,9 +2,8 @@
 // 🟢 Difficulty: Easy
 
 // 💡 Approach:
-// Start with i = 0 and keep calculating 4^i using pow().
+// Check every power of 4 using pow() until it exceeds n.
 // If any power equals n, return true.
-// Stop when 4^i becomes greater than n.
 
 // ⏱ Time Complexity: O(log₄ n)
 // 🧠 Space Complexity: O(1)
