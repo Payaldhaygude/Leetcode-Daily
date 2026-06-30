@@ -2,10 +2,8 @@
 // 🟢 Difficulty: Easy
 
 // 💡 Approach:
-// Traverse each element in the array.
-// For every element, count how many times it appears using another loop.
-// If the element appears exactly once, add it to the sum.
-// Finally, return the sum of all unique elements.
+// Count the frequency of each element by traversing the array.
+// Add only those elements whose frequency is exactly one.
 
 // ⏱ Time Complexity: O(n²)
 // 🧠 Space Complexity: O(1)
