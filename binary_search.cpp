@@ -1,11 +1,9 @@
 // 🔗 Problem: https://leetcode.com/problems/binary-search/
 // 🟢 Difficulty: Easy
 //
-// 💡 Approach (Linear Search):
-// 1. Traverse the array from the beginning.
-// 2. Compare each element with the target.
-// 3. If the target is found, return its index.
-// 4. If the loop ends without finding the target, return -1.
+// 💡 Approach:
+// Traverse the array and compare each element with the target.
+// Return its index if found; otherwise, return -1.
 //
 // ⏱️ Time Complexity: O(n)
 // 📦 Space Complexity: O(1)
