@@ -1,6 +1,5 @@
-
- // 🔗 Problem: [Add LeetCode problem link]
- // 🟡 Difficulty: [Add difficulty]
+// 🔗 Problem: https://leetcode.com/problems/check-adjacent-digit-differences/
+ // 🟡 Difficulty: Easy
 
  // 💡 Approach:
  // 1. Traverse the string and compare adjacent digits.
